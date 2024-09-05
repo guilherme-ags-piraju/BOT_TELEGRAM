@@ -250,7 +250,7 @@ class TelegramBotPanel(tk.Tk):
 
 
 async def main():
-    bot_token = '7363380376:AAF6PL-T3-GkWs-J4597UYFbwD3r3gqYgTI'
+    bot_token = 'SEU-TOKEN-ID'
     bot = telegram.Bot(token=bot_token)
     loop = asyncio.get_running_loop()
 
